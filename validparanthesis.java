@@ -16,7 +16,7 @@ class validparanthesis {
 
                 char top = stack.pop();
 
-                if(c==')' && top!='('){
+                if(c==')'' && top!='('){
                     return false;
                 }
 
